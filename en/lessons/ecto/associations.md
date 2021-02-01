@@ -1,6 +1,7 @@
----
-version: 1.2.1
-title: Associations
+%{
+  version: "1.2.1",
+  title: "Associations"
+}
 ---
 
 In this section we'll learn how to use Ecto to define and work with associations between our schemas.
