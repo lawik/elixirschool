@@ -1,5 +1,6 @@
 %{
   version: "0.9.2",
+<<<<<<< HEAD:lessons/de/basics/documentation.md
   title: "Dokumentation"
 }
 ---
@@ -7,6 +8,14 @@
 Wie dokumentiert man Elixir Code?
 
 {% include toc.html %}
+=======
+  title: "Dokumentation",
+  excerpt: """
+  Wie dokumentiert man Elixir Code?
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/documentation.md
 
 ## Anmerkungen
 

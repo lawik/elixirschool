@@ -1,5 +1,6 @@
 %{
   version: "0.9.1",
+<<<<<<< HEAD:lessons/bg/basics/functions.md
   title: "Функции"
 }
 ---
@@ -7,6 +8,14 @@
 В Elixir и много функционални езици, функциите са граждани "първи клас".  Ще научим за видовете функции в Elixir, какво ги отличава и как да ги използваме.
 
 {% include toc.html %}
+=======
+  title: "Функции",
+  excerpt: """
+  В Elixir и много функционални езици, функциите са граждани "първи клас".  Ще научим за видовете функции в Elixir, какво ги отличава и как да ги използваме.
+  """
+}
+---
+>>>>>>> lessons-only:bg/lessons/basics/functions.md
 
 ## Анонимни функции
 
@@ -45,10 +54,9 @@ iex> handle_result = fn
 ...> end
 
 iex> some_result = 1
-1
 iex> handle_result.({:ok, some_result})
 Handling result...
-:ok
+
 iex> handle_result.({:error})
 An error has occurred!
 ```

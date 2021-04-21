@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/bn/basics/control_structures.md
   title: "কন্ট্রোল স্ট্রাকচার "
 }
 ---
@@ -7,6 +8,14 @@
 এই অধ্যায়ে আমরা এলিক্সিরে ব্যবহৃত কন্ট্রোল স্ট্রাকচার নিয়ে কথা বলব। 
 
 {% include toc.html %}
+=======
+  title: "কন্ট্রোল স্ট্রাকচার ",
+  excerpt: """
+  এই অধ্যায়ে আমরা এলিক্সিরে ব্যবহৃত কন্ট্রোল স্ট্রাকচার নিয়ে কথা বলব। 
+  """
+}
+---
+>>>>>>> lessons-only:bn/lessons/basics/control-structures.md
 
 ## `if` ও `unless`
 

@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/es/basics/mix.md
   title: "Mix"
 }
 ---
@@ -9,6 +10,16 @@ Antes de que podamos sumergirnos en las profundas aguas de Elixir primero necesi
 Hasta ahora hemos estado trabajando exclusivamente dentro de `iex` con sus limitaciones. Para construir algo sustancial necesitamos dividir nuestro código en varios archivos para administrarlos efectivamente, mix nos permite hacer eso con nuestros proyectos.
 
 {% include toc.html %}
+=======
+  title: "Mix",
+  excerpt: """
+  Antes de que podamos sumergirnos en las profundas aguas de Elixir primero necesitamos aprender acerca de mix. Si estás familiarizado con Ruby, mix es Bundler, RubyGems y Rake combinados. Es una parte crucial de cualquier proyecto Elixir y en esta lección vamos a explorar solo algunas de sus grandiosas características. Para ver todo lo que mix ofrece ejecutamos `mix help`.
+
+  Hasta ahora hemos estado trabajando exclusivamente dentro de `iex` con sus limitaciones. Para construir algo sustancial necesitamos dividir nuestro código en varios archivos para administrarlos efectivamente, mix nos permite hacer eso con nuestros proyectos.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/mix.md
 
 ## Nuevo proyecto
 

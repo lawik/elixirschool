@@ -1,5 +1,6 @@
 %{
   version: "1.1.1",
+<<<<<<< HEAD:lessons/es/basics/strings.md
   title: "Cadenas"
 }
 ---
@@ -7,6 +8,14 @@
 Cadenas, listas de caracteres, Grafemas y puntos de código.
 
 {% include toc.html %}
+=======
+  title: "Cadenas",
+  excerpt: """
+  Cadenas, listas de caracteres, Grafemas y puntos de código.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/strings.md
 
 ## Cadenas
 

@@ -1,5 +1,6 @@
 %{
   version: "1.4.1",
+<<<<<<< HEAD:lessons/fr/basics/modules.md
   title: "Modules"
 }
 ---
@@ -7,6 +8,14 @@
 Nous savons d'expérience qu'il est mauvais d'avoir toutes nos fonctions dans le même fichier et avec la même portée. Dans cette leçon, nous allons voir comment grouper nos fonctions et définir un tableau associatif spécialisé nommé `struct` dans le but d'organiser notre code plus efficacement.
 
 {% include toc.html %}
+=======
+  title: "Modules",
+  excerpt: """
+  Nous savons d'expérience qu'il est mauvais d'avoir toutes nos fonctions dans le même fichier et avec la même portée. Dans cette leçon, nous allons voir comment grouper nos fonctions et définir un tableau associatif spécialisé nommé `struct` dans le but d'organiser notre code plus efficacement.
+  """
+}
+---
+>>>>>>> lessons-only:fr/lessons/basics/modules.md
 
 ## Modules
 

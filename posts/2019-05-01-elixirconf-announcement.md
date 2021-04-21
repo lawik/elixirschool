@@ -1,11 +1,11 @@
----
-authors: ['Sean Callan', 'Sophie DeBenedetto']
-categories: announcement
-date: 2019-05-01
-layout: post
-title: ElixirConf 2019 Announcement
-excerpt: >
-  Join us this year at ElixirConf 2019 for the first ever Elixir School workshop!
+%{
+  author: "Sean Callan",
+  author_link: "https://github.com/doomspork",
+  tags: ["announcement", "conference"],
+  date:  ~D[2019-05-01],
+  title: "ElixirConf 2019 Announcement",
+  excerpt: "Join us this year at ElixirConf 2019 for the first ever Elixir School workshop!"
+}
 ---
 
 We have some _very_ exciting news to announce today!

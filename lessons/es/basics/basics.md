@@ -1,5 +1,6 @@
 %{
   version: "1.2.1",
+<<<<<<< HEAD:lessons/es/basics/basics.md
   title: "Básico"
 }
 ---
@@ -7,6 +8,14 @@
 Preparar el entorno, tipos y operaciones básicas.
 
 {% include toc.html %}
+=======
+  title: "Básico",
+  excerpt: """
+  Preparar el entorno, tipos y operaciones básicas.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/basics.md
 
 ## Preparar el entorno
 

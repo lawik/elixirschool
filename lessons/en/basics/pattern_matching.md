@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/en/basics/pattern_matching.md
   title: "Pattern Matching"
 }
 ---
@@ -8,6 +9,15 @@ Pattern matching is a powerful part of Elixir. It allows us to match simple valu
 In this lesson we will begin to see how pattern matching is used.
 
 {% include toc.html %}
+=======
+  title: "Pattern Matching",
+  excerpt: """
+  Pattern matching is a powerful part of Elixir. It allows us to match simple values, data structures, and even functions.
+  In this lesson we will begin to see how pattern matching is used.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/pattern-matching.md
 
 ## Match Operator
 
@@ -32,7 +42,6 @@ Let's try that with some of the collections we know:
 ```elixir
 # Lists
 iex> list = [1, 2, 3]
-[1, 2, 3]
 iex> [1, 2, 3] = list
 [1, 2, 3]
 iex> [] = list

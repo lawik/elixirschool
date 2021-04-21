@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/es/advanced/behaviours.md
   title: "Comportamientos"
 }
 ---
@@ -8,6 +9,15 @@ Aprendimos acerca de Typespecs en la lección anterior, ahora vamos a aprender c
 En Elixir, esta funcionalidad es referida como comportamientos.
 
 {% include toc.html %}
+=======
+  title: "Comportamientos",
+  excerpt: """
+  Aprendimos acerca de Typespecs en la lección anterior, ahora vamos a aprender como requerir que un módulo implemente esas especificaciones.
+  En Elixir, esta funcionalidad es referida como comportamientos.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/advanced/behaviours.md
 
 ## Usos
 

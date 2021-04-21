@@ -1,5 +1,6 @@
 %{
   version: "1.1.0",
+<<<<<<< HEAD:lessons/es/basics/date_time.md
   title: "Fecha y Hora"
 }
 ---
@@ -7,6 +8,14 @@
 Trabajando con tiempos en Elixir.
 
 {% include toc.html %}
+=======
+  title: "Fecha y Hora",
+  excerpt: """
+  Trabajando con tiempos en Elixir.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/date-time.md
 
 ## Hora (`Time`)
 

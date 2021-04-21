@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/en/advanced/behaviours.md
   title: "Behaviours"
 }
 ---
@@ -8,6 +9,15 @@ We learned about Typespecs in the previous lesson, here we'll learn how to requi
 In Elixir, this functionality is referred to as behaviours.
 
 {% include toc.html %}
+=======
+  title: "Behaviours",
+  excerpt: """
+  We learned about Typespecs in the previous lesson, here we'll learn how to require a module to implement those specifications.
+  In Elixir, this functionality is referred to as behaviours.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/advanced/behaviours.md
 
 ## Uses
 

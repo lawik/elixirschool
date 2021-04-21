@@ -1,5 +1,6 @@
 %{
   version: "1.0.3",
+<<<<<<< HEAD:lessons/es/advanced/typespec.md
   title: "Tipos y especificaciones"
 }
 ---
@@ -9,6 +10,16 @@ En esta lección vamos a aprender acerca de la sintaxis de `@spec` y `@type`.
 `@type` nos ayuda a escribir código más legible y fácil de entender.
 
 {% include toc.html %}
+=======
+  title: "Tipos y especificaciones",
+  excerpt: """
+  En esta lección vamos a aprender acerca de la sintaxis de `@spec` y `@type`.
+  `@spec` es mas una sintaxis complementaria para escribir documentación la cual podría ser analizada por herramientas.
+  `@type` nos ayuda a escribir código más legible y fácil de entender.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/advanced/typespec.md
 
 ## Introducción
 

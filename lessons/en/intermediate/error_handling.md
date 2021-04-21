@@ -1,16 +1,23 @@
 %{
   version: "1.1.0",
+<<<<<<< HEAD:lessons/en/intermediate/error_handling.md
   title: "Error Handling"
 }
 ---
 
 Although more common to return the `{:error, reason}` tuple, Elixir supports exceptions and in this lesson we'll look at how to handle errors and the different mechanisms available to us.
+=======
+  title: "Error Handling",
+  excerpt: """
+  Although more common to return the `{:error, reason}` tuple, Elixir supports exceptions and in this lesson we'll look at how to handle errors and the different mechanisms available to us.
+>>>>>>> lessons-only:en/lessons/advanced/error-handling.md
 
-In general the convention in Elixir is to create a function (`example/1`) which returns `{:ok, result}` and `{:error, reason}` and a separate function (`example!/1`) that returns the unwrapped `result` or raises an error.
+  In general the convention in Elixir is to create a function (`example/1`) which returns `{:ok, result}` and `{:error, reason}` and a separate function (`example!/1`) that returns the unwrapped `result` or raises an error.
 
-This lesson will focus on interacting with the latter.
-
-{% include toc.html %}
+  This lesson will focus on interacting with the latter.
+  """
+}
+---
 
 ## General conventions
 

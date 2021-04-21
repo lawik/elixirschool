@@ -1,5 +1,6 @@
 %{
   version: "2.0.0",
+<<<<<<< HEAD:lessons/en/misc/benchee.md
   title: "Benchee"
 }
 ---
@@ -9,6 +10,16 @@ That's where benchmarking comes in.
 In this lesson, we'll learn about how easy it is to measure the speed of our code.
 
 {% include toc.html %}
+=======
+  title: "Benchee",
+  excerpt: """
+  We can't guess about which functions are fast and which are slow - we need actual measurements when we're curious.
+  That's where benchmarking comes in.
+  In this lesson, we'll learn about how easy it is to measure the speed of our code.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/libraries/benchee.md
 
 # About Benchee
 

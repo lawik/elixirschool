@@ -1,5 +1,6 @@
 %{
   version: "1.2.0",
+<<<<<<< HEAD:lessons/en/storage/mnesia.md
   title: "Mnesia"
 }
 ---
@@ -7,6 +8,14 @@
 Mnesia is a heavy duty real-time distributed database management system.
 
 {% include toc.html %}
+=======
+  title: "Mnesia",
+  excerpt: """
+  Mnesia is a heavy duty real-time distributed database management system.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/specifics/mnesia.md
 
 ## Overview
 

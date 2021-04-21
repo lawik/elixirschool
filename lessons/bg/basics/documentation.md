@@ -1,5 +1,6 @@
 %{
   version: "0.9.2",
+<<<<<<< HEAD:lessons/bg/basics/documentation.md
   title: "Документация"
 }
 ---
@@ -7,6 +8,14 @@
 Документиране на Elixir код.
 
 {% include toc.html %}
+=======
+  title: "Документация",
+  excerpt: """
+  Документиране на Elixir код.
+  """
+}
+---
+>>>>>>> lessons-only:bg/lessons/basics/documentation.md
 
 ## Анотация
 

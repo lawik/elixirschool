@@ -1,14 +1,21 @@
 %{
   version: "1.0.3",
+<<<<<<< HEAD:lessons/en/advanced/otp_concurrency.md
   title: "OTP Concurrency"
 }
 ---
 
 We've looked at the Elixir abstractions for concurrency but sometimes we need greater control and for that we turn to the OTP behaviors that Elixir is built on.
+=======
+  title: "OTP Concurrency",
+  excerpt: """
+  We've looked at the Elixir abstractions for concurrency but sometimes we need greater control and for that we turn to the OTP behaviors that Elixir is built on.
+>>>>>>> lessons-only:en/lessons/advanced/otp-concurrency.md
 
-In this lesson we'll focus on the biggest piece: GenServers.
-
-{% include toc.html %}
+  In this lesson we'll focus on the biggest piece: GenServers.
+  """
+}
+---
 
 ## GenServer
 

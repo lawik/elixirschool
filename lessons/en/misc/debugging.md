@@ -1,5 +1,6 @@
 %{
   version: "1.1.3",
+<<<<<<< HEAD:lessons/en/misc/debugging.md
   title: "Debugging"
 }
 ---
@@ -9,6 +10,16 @@ Bugs are an inherent part of any project, that's why we need debugging.
 In this lesson we'll learn about debugging Elixir code as well as static analysis tools to help find potential bugs.
 
 {% include toc.html %}
+=======
+  title: "Debugging",
+  excerpt: """
+  Bugs are an inherent part of any project, that's why we need debugging.
+
+  In this lesson we'll learn about debugging Elixir code as well as static analysis tools to help find potential bugs.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/specifics/debugging.md
 
 ## IEx
 

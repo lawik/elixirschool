@@ -1,5 +1,6 @@
 %{
   version: "1.1.1",
+<<<<<<< HEAD:lessons/en/testing/stream_data.md
   title: "StreamData"
 }
 ---
@@ -14,6 +15,21 @@ However, example-based unit tests have some drawbacks:
 In this lesson we're going to explore how [StreamData](https://github.com/whatyouhide/stream_data) can help us overcome some of these drawbacks.
 
 {% include toc.html %}
+=======
+  title: "StreamData",
+  excerpt: """
+  An example-based unit testing library like [ExUnit](https://hexdocs.pm/ex_unit/ExUnit.html) is a wonderful tool to help you verify that your code works the way you think it does.
+  However, example-based unit tests have some drawbacks:
+
+  * It can be easy to miss edge cases, since you're only testing a few inputs.
+  * You can write these tests without thinking through your requirements thoroughly.
+  * These tests can be very verbose when you use several examples for one function.
+
+  In this lesson we're going to explore how [StreamData](https://github.com/whatyouhide/stream_data) can help us overcome some of these drawbacks.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/libraries/stream-data.md
 
 ## What is StreamData?
 

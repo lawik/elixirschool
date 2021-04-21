@@ -1,12 +1,11 @@
----
-author: George Mantzouranis
-author_link: https://github.com/gemantzu
-categories: review
-date:   2018-11-14
-layout: post
-title:  Reviewing Elixircards
-excerpt: >
-  Elixircards show us how modern learning tools should work through their Elixir Decks.
+%{
+  author: "George Mantzouranis",
+  author_link: "https://github.com/gemantzu",
+  tags: ["review"],
+  date:  ~D[2018-11-14],
+  title: "Reviewing Elixircards",
+  excerpt: "Elixircards show us how modern learning tools should work through their Elixir Decks."
+}
 ---
 
 For the next part of this series, we are reviewing 6 decks from [Elixircards](https://elixircards.co.uk/)
@@ -83,11 +82,11 @@ This deck contains introductory content about Elixir. It is a good jack-of-all t
 
 ### Kernel 1
 
-This deck contains cards that cover the Kernel functions, some arithmetic expressions, logical expressions, and regular expressions.  All these cards can easily be practiced in _iex_. They are a bit repetitive on some topics but that repetition paid off, as it did clear up certain things for me. 
+This deck contains cards that cover the Kernel functions, some arithmetic expressions, logical expressions, and regular expressions.  All these cards can easily be practiced in _iex_. They are a bit repetitive on some topics but that repetition paid off, as it did clear up certain things for me.
 
 ### Enum 1
 
-This is the first deck of a series that cover the Enum module. These decks are probably the only ones that you should buy together as a set, as you are not going to have the complete experience with just the one. The 1st deck starts with two cards about `map/2` then proceeds to  walk through the `Enum` functions alphabetically; from `all?/2` to `drop_every/2` with a few additional cards on `take` and `take_every`. We’re not entirely sure about the reasoning behind this, if it’s an inconsistency or an attempt to capture some of the most useful functions in the module while still maintaining the alphabetical list.  
+This is the first deck of a series that cover the Enum module. These decks are probably the only ones that you should buy together as a set, as you are not going to have the complete experience with just the one. The 1st deck starts with two cards about `map/2` then proceeds to  walk through the `Enum` functions alphabetically; from `all?/2` to `drop_every/2` with a few additional cards on `take` and `take_every`. We’re not entirely sure about the reasoning behind this, if it’s an inconsistency or an attempt to capture some of the most useful functions in the module while still maintaining the alphabetical list.
 
 The information contained in these collections are great and you will learn a lot about `Enum` and the collection of functions it provides.  With the importance of enumeration in functional programming this is definitely a set to consider as a must-have.
 
@@ -111,7 +110,7 @@ Elixircards is a great idea. If  “Learning 2.0” was a thing these flashcard 
 
 I found most of the cards very helpful and really nicely priced for the knowledge / help they provide in practicing your Elixir knowledge on-the-go.  Given how creative the Elixir community is, I’m sure we can come up with some great games using the elixircards.
 
-With a little work and some additions the elixircards would be in a class of their own.  For instance, I think `Enum` should be approached differently so as not to require the purchase of all decks at once to get the most use out of them.  Perhaps mixing the difficulty and functions across the three separate decks? 
+With a little work and some additions the elixircards would be in a class of their own.  For instance, I think `Enum` should be approached differently so as not to require the purchase of all decks at once to get the most use out of them.  Perhaps mixing the difficulty and functions across the three separate decks?
 
 I would love to see the GenServer deck expanded like some of the others and focus on OTP in general, with OTP 1 being the basics and OTP 3 being the more advanced topics.  Adding content on Tasks and Supervision would be a welcomed addition as well.
 

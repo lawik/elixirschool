@@ -1,5 +1,6 @@
 %{
   version: "1.2.0",
+<<<<<<< HEAD:lessons/en/testing/basics.md
   title: "Testing"
 }
 ---
@@ -8,6 +9,15 @@ Testing is an important part of developing software.
 In this lesson we'll look at how to test our Elixir code with ExUnit and some best practices for doing so.
 
 {% include toc.html %}
+=======
+  title: "Testing",
+  excerpt: """
+  Testing is an important part of developing software.
+  In this lesson we'll look at how to test our Elixir code with ExUnit and some best practices for doing so.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/testing.md
 
 ## ExUnit
 

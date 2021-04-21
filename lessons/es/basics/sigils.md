@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/es/basics/sigils.md
   title: "Sigilos"
 }
 ---
@@ -7,6 +8,14 @@
 Usando y creando sigilos.
 
 {% include toc.html %}
+=======
+  title: "Sigilos",
+  excerpt: """
+  Usando y creando sigilos.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/sigils.md
 
 ## Resumen de sigilos
 

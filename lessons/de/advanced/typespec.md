@@ -1,5 +1,6 @@
 %{
   version: "1.0.3",
+<<<<<<< HEAD:lessons/de/advanced/typespec.md
   title: "Spezifikationen und Typen"
 }
 ---
@@ -7,6 +8,14 @@
 In dieser Lektion werden wir die `@spec`- und `@type`-Syntax kennen lernen. Die Erste ist eine Ergänzung um Dokumentation zu schreiben, die von Tools ausgewertet werden kann. Die Zweite hilft uns lesbareren und einfacheren Code zu schreiben.
 
 {% include toc.html %}
+=======
+  title: "Spezifikationen und Typen",
+  excerpt: """
+  In dieser Lektion werden wir die `@spec`- und `@type`-Syntax kennen lernen. Die Erste ist eine Ergänzung um Dokumentation zu schreiben, die von Tools ausgewertet werden kann. Die Zweite hilft uns lesbareren und einfacheren Code zu schreiben.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/advanced/typespec.md
 
 ## Einführung
 

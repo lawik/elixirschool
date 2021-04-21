@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/es/advanced/otp_distribution.md
   title: "Distribución en OTP"
 }
 ---
@@ -10,6 +11,17 @@ Podemos ejecutar aplicaciones Elixir en un conjunto de nodos distribuidos difere
 Elixir nos permite comunicarnos a través de estos nodos usando algunos mecanismos los cuales están fuera del objetivo de esta lección.
 
 {% include toc.html %}
+=======
+  title: "Distribución en OTP",
+  excerpt: """
+  ## Introducción a la distribución
+
+  Podemos ejecutar aplicaciones Elixir en un conjunto de nodos distribuidos diferentes ya sea en un único *host* o en múltiples *hosts*.
+  Elixir nos permite comunicarnos a través de estos nodos usando algunos mecanismos los cuales están fuera del objetivo de esta lección.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/advanced/otp-distribution.md
 
 ## Comunicación entre nodos
 

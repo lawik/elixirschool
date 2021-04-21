@@ -1,5 +1,6 @@
 %{
   version: "1.0.3",
+<<<<<<< HEAD:lessons/es/basics/documentation.md
   title: "Documentación"
 }
 ---
@@ -7,6 +8,14 @@
 Documentando código Elixir.
 
 {% include toc.html %}
+=======
+  title: "Documentación",
+  excerpt: """
+  Documentando código Elixir.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/documentation.md
 
 ## Anotación
 

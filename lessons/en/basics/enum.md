@@ -1,5 +1,6 @@
 %{
   version: "1.7.0",
+<<<<<<< HEAD:lessons/en/basics/enum.md
   title: "Enum"
 }
 ---
@@ -7,6 +8,14 @@
 A set of algorithms for enumerating over enumerables.
 
 {% include toc.html %}
+=======
+  title: "Enum",
+  excerpt: """
+  A set of algorithms for enumerating over enumerables.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/enum.md
 
 ## Enum
 

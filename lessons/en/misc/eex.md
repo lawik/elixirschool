@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/en/misc/eex.md
   title: "Embedded Elixir (EEx)"
 }
 ---
@@ -8,6 +9,15 @@ Much like Ruby has ERB and Java has JSPs, Elixir has EEx, or Embedded Elixir.
 With EEx we can embed and evaluate Elixir inside strings.
 
 {% include toc.html %}
+=======
+  title: "Embedded Elixir (EEx)",
+  excerpt: """
+  Much like Ruby has ERB and Java has JSPs, Elixir has EEx, or Embedded Elixir.
+  With EEx we can embed and evaluate Elixir inside strings.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/specifics/eex.md
 
 ## API
 

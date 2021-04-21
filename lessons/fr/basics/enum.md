@@ -1,5 +1,6 @@
 %{
   version: "1.5.0",
+<<<<<<< HEAD:lessons/fr/basics/enum.md
   title: "Enum"
 }
 ---
@@ -7,6 +8,14 @@
 Un ensemble d'algorithmes pour énumérer sur les collections.
 
 {% include toc.html %}
+=======
+  title: "Enum",
+  excerpt: """
+  Un ensemble d'algorithmes pour énumérer sur les collections.
+  """
+}
+---
+>>>>>>> lessons-only:fr/lessons/basics/enum.md
 
 ## Enum
 

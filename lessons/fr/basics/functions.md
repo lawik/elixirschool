@@ -1,5 +1,6 @@
 %{
   version: "1.2.0",
+<<<<<<< HEAD:lessons/fr/basics/functions.md
   title: "Fonctions"
 }
 ---
@@ -8,6 +9,15 @@ En Elixir, comme dans tous les langages fonctionnels, les fonctions sont des cit
 Nous verrons les différents types de fonctions en Elixir, ce qui les rend différentes et comment les utiliser.
 
 {% include toc.html %}
+=======
+  title: "Fonctions",
+  excerpt: """
+  En Elixir, comme dans tous les langages fonctionnels, les fonctions sont des citoyens de premier ordre.
+  Nous verrons les différents types de fonctions en Elixir, ce qui les rend différentes et comment les utiliser.
+  """
+}
+---
+>>>>>>> lessons-only:fr/lessons/basics/functions.md
 
 ## Fonctions anonymes
 
@@ -50,10 +60,9 @@ iex> handle_result = fn
 ...> end
 
 iex> some_result = 1
-1
 iex> handle_result.({:ok, some_result})
 Handling result...
-:ok
+
 iex> handle_result.({:error})
 An error has occurred!
 ```

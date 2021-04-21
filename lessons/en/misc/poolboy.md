@@ -1,5 +1,6 @@
 %{
   version: "1.2.0",
+<<<<<<< HEAD:lessons/en/misc/poolboy.md
   title: "Poolboy"
 }
 ---
@@ -8,6 +9,15 @@ You can easily exhaust your system resources if you do not limit the maximum num
 [Poolboy](https://github.com/devinus/poolboy) is a widely used lightweight, generic pooling library for Erlang that addresses this issue.
 
 {% include toc.html %}
+=======
+  title: "Poolboy",
+  excerpt: """
+  You can easily exhaust your system resources if you do not limit the maximum number of concurrent processes that your program can spawn.
+  [Poolboy](https://github.com/devinus/poolboy) is a widely used lightweight, generic pooling library for Erlang that addresses this issue.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/libraries/poolboy.md
 
 ## Why use Poolboy?
 
@@ -23,7 +33,7 @@ Then you can easily avoid running out of your system resources.
 That's where Poolboy comes in.
 It allows you to easily set up a pool of workers managed by a `Supervisor` without much effort on your part.
 There are many libraries which use Poolboy under the covers.
-For example,`redis_poolex` *(Redis connection pool)* is a popular library which uses Poolboy.
+For example, `postgrex`'s connection pool *(which is leveraged by Ecto when using PostgreSQL)* and `redis_poolex` *(Redis connection pool)* are some popular libraries which use Poolboy.
 
 ## Installation
 

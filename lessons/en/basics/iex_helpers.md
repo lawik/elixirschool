@@ -3,8 +3,11 @@
   title: "IEx Helpers"
 }
 ---
+<<<<<<< HEAD:lessons/en/basics/iex_helpers.md
 
 {% include toc.html %}
+=======
+>>>>>>> lessons-only:en/lessons/basics/iex-helpers.md
 
 ## Overview
 

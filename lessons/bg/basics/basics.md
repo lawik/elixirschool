@@ -1,5 +1,6 @@
 %{
   version: "1.1.2",
+<<<<<<< HEAD:lessons/bg/basics/basics.md
   title: "Основи"
 }
 ---
@@ -7,6 +8,14 @@
 Настройване, основни типове и операции.
 
 {% include toc.html %}
+=======
+  title: "Основи",
+  excerpt: """
+  Настройване, основни типове и операции.
+  """
+}
+---
+>>>>>>> lessons-only:bg/lessons/basics/basics.md
 
 ## Настройване
 

@@ -1,5 +1,6 @@
 %{
   version: "1.1.2",
+<<<<<<< HEAD:lessons/bg/basics/collections.md
   title: "Колекции"
 }
 ---
@@ -7,6 +8,14 @@
 Списъци, tuples, ключови думи, асоциативни списъци и функционални комбинатори.
 
 {% include toc.html %}
+=======
+  title: "Колекции",
+  excerpt: """
+  Списъци, tuples, ключови думи, асоциативни списъци и функционални комбинатори.
+  """
+}
+---
+>>>>>>> lessons-only:bg/lessons/basics/collections.md
 
 ## Списъци
 

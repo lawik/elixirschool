@@ -1,14 +1,21 @@
 %{
   version: "1.0.3",
+<<<<<<< HEAD:lessons/de/advanced/otp_concurrency.md
   title: "OTP Nebenläufigkeit"
 }
 ---
 
 Wir haben uns die Elixir-Abstraktion für Nebenläufigkeit angesehen, aber manchmal hätten wir gern mehr Kontrolle und dafür sehen wir uns OTP behaviors an, auf denen Elixir gebaut wurde.
+=======
+  title: "OTP Nebenläufigkeit",
+  excerpt: """
+  Wir haben uns die Elixir-Abstraktion für Nebenläufigkeit angesehen, aber manchmal hätten wir gern mehr Kontrolle und dafür sehen wir uns OTP behaviors an, auf denen Elixir gebaut wurde.
+>>>>>>> lessons-only:de/lessons/advanced/otp-concurrency.md
 
-In dieser Lektion werden wir uns hauptsächlich mit zwei wichtigen Teilen beschäftigen: GenServers.
-
-{% include toc.html %}
+  In dieser Lektion werden wir uns hauptsächlich mit zwei wichtigen Teilen beschäftigen: GenServers.
+  """
+}
+---
 
 ## GenServer
 

@@ -1,5 +1,6 @@
 %{
   version: "1.0.0",
+<<<<<<< HEAD:lessons/bn/basics/collections.md
   title: "কালেকশন "
 }
 ---
@@ -7,6 +8,14 @@
 লিস্ট, টাপ্ল, কীওয়ার্ড, ম্যাপ এবং ফাংশনাল কম্বিনেটর।
 
 {% include toc.html %}
+=======
+  title: "কালেকশন ",
+  excerpt: """
+  লিস্ট, টাপ্ল, কীওয়ার্ড, ম্যাপ এবং ফাংশনাল কম্বিনেটর।
+  """
+}
+---
+>>>>>>> lessons-only:bn/lessons/basics/collections.md
 
 ## Lists
 

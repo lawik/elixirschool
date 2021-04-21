@@ -1,5 +1,6 @@
 %{
   version: "1.0.3",
+<<<<<<< HEAD:lessons/bn/basics/documentation.md
   title: "ডকুমেন্টেশান"
 }
 ---
@@ -7,6 +8,14 @@
 আপনার কোডকে ডকুমেন্ট করুন।
 
 {% include toc.html %}
+=======
+  title: "ডকুমেন্টেশান",
+  excerpt: """
+  আপনার কোডকে ডকুমেন্ট করুন।
+  """
+}
+---
+>>>>>>> lessons-only:bn/lessons/basics/documentation.md
 
 ## অ্যানোটেশান
 

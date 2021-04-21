@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/fr/basics/pipe_operator.md
   title: "L'opérateur Pipe"
 }
 ---
@@ -7,6 +8,14 @@
 L'opérateur pipe `|>` passe le résultat d'une expression en tant que premier paramètre à une autre expression.
 
 {% include toc.html %}
+=======
+  title: "L'opérateur Pipe",
+  excerpt: """
+  L'opérateur pipe `|>` passe le résultat d'une expression en tant que premier paramètre à une autre expression.
+  """
+}
+---
+>>>>>>> lessons-only:fr/lessons/basics/pipe-operator.md
 
 ## Introduction
 

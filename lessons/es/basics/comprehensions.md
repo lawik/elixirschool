@@ -1,5 +1,6 @@
 %{
   version: "1.1.0",
+<<<<<<< HEAD:lessons/es/basics/comprehensions.md
   title: "Comprensiones"
 }
 ---
@@ -7,6 +8,14 @@
 La comprensión de listas es azúcar sintáctica para iterar a través de enumerables en Elixir. En esta lección veremos como podemos usar comprensiones para iteración y generación.
 
 {% include toc.html %}
+=======
+  title: "Comprensiones",
+  excerpt: """
+  La comprensión de listas es azúcar sintáctica para iterar a través de enumerables en Elixir. En esta lección veremos como podemos usar comprensiones para iteración y generación.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/comprehensions.md
 
 ## Lo esencial
 

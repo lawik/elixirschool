@@ -1,5 +1,6 @@
 %{
   version: "0.9.0",
+<<<<<<< HEAD:lessons/de/basics/basics.md
   title: "Grundlagen"
 }
 ---
@@ -7,6 +8,14 @@
 Zum Anfang: Grundlegende Datentypen und Operationen.
 
 {% include toc.html %}
+=======
+  title: "Grundlagen",
+  excerpt: """
+  Zum Anfang: Grundlegende Datentypen und Operationen.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/basics.md
 
 ## Grundlagen
 

@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/fr/basics/sigils.md
   title: "Sigils"
 }
 ---
@@ -7,6 +8,14 @@
 Utilisation et création de _sigils_.
 
 {% include toc.html %}
+=======
+  title: "Sigils",
+  excerpt: """
+  Utilisation et création de _sigils_.
+  """
+}
+---
+>>>>>>> lessons-only:fr/lessons/basics/sigils.md
 
 ## Vue d'ensemble des sigils
 

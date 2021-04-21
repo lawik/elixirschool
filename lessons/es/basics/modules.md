@@ -1,5 +1,6 @@
 %{
   version: "1.4.1",
+<<<<<<< HEAD:lessons/es/basics/modules.md
   title: "Composición"
 }
 ---
@@ -7,6 +8,14 @@
 Sabemos por experiencia que es incontrolable tener todas nuestras funciones en el mismo archivo y alcance. En esta sección cubriremos cómo agrupar funciones y definir un mapa especializado conocido como estructura (struct), con el propósito de organizar nuestro código de manera eficiente.
 
 {% include toc.html %}
+=======
+  title: "Composición",
+  excerpt: """
+  Sabemos por experiencia que es incontrolable tener todas nuestras funciones en el mismo archivo y alcance. En esta sección cubriremos cómo agrupar funciones y definir un mapa especializado conocido como estructura (struct), con el propósito de organizar nuestro código de manera eficiente.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/modules.md
 
 ## Modulos
 

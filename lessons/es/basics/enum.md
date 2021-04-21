@@ -1,5 +1,6 @@
 %{
   version: "1.4.0",
+<<<<<<< HEAD:lessons/es/basics/enum.md
   title: "Enum"
 }
 ---
@@ -7,6 +8,14 @@
 Un conjunto de algoritmos para hacer enumeración sobre colecciones.
 
 {% include toc.html %}
+=======
+  title: "Enum",
+  excerpt: """
+  Un conjunto de algoritmos para hacer enumeración sobre colecciones.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/enum.md
 
 ## Enum
 

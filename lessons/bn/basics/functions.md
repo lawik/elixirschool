@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/bn/basics/functions.md
   title: "ফাংশন "
 }
 ---
@@ -7,6 +8,14 @@
 এলিক্সির এবং অন্যান্য ফাংশনাল ল্যাঙ্গুয়েজে ফাংশন হল প্রথম শ্রেণীর নাগরিক। এই অধ্যায়ে আমরা এলিক্সিরের বিভিন্ন ধরণের ফাংশন নিয়ে কথা বলব এবং আলোচনা করব এদের পার্থক্য ও ব্যবহার নিয়ে। 
 
 {% include toc.html %}
+=======
+  title: "ফাংশন ",
+  excerpt: """
+  এলিক্সির এবং অন্যান্য ফাংশনাল ল্যাঙ্গুয়েজে ফাংশন হল প্রথম শ্রেণীর নাগরিক। এই অধ্যায়ে আমরা এলিক্সিরের বিভিন্ন ধরণের ফাংশন নিয়ে কথা বলব এবং আলোচনা করব এদের পার্থক্য ও ব্যবহার নিয়ে। 
+  """
+}
+---
+>>>>>>> lessons-only:bn/lessons/basics/functions.md
 
 ## নামহীন ফাংশন (Anonymous Function)
 
@@ -45,10 +54,9 @@ iex> handle_result = fn
 ...> end
 
 iex> some_result = 1
-1
 iex> handle_result.({:ok, some_result})
 Handling result...
-:ok
+
 iex> handle_result.({:error})
 An error has occurred!
 ```

@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/en/misc/nimble_publisher.md
   title: "NimblePublisher"
 }
 ---
@@ -7,6 +8,14 @@
 [NimblePublisher](https://github.com/dashbitco/nimble_publisher) is a minimal filesystem-based publishing engine with Markdown support and code highlighting.
 
 {% include toc.html %}
+=======
+  title: "NimblePublisher",
+  excerpt: """
+  [NimblePublisher](https://github.com/dashbitco/nimble_publisher) is a minimal filesystem-based publishing engine with Markdown support and code highlighting.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/libraries/nimble-publisher.md
 
 ## Why use NimblePublisher?
 

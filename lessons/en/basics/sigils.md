@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/en/basics/sigils.md
   title: "Sigils"
 }
 ---
@@ -7,6 +8,14 @@
 Working with and creating sigils.
 
 {% include toc.html %}
+=======
+  title: "Sigils",
+  excerpt: """
+  Working with and creating sigils.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/sigils.md
 
 ## Sigils Overview
 

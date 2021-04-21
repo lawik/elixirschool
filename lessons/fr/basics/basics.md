@@ -1,5 +1,6 @@
 %{
   version: "1.2.1",
+<<<<<<< HEAD:lessons/fr/basics/basics.md
   title: "Bases"
 }
 ---
@@ -7,6 +8,14 @@
 Installation, types de base et opérations.
 
 {% include toc.html %}
+=======
+  title: "Bases",
+  excerpt: """
+  Installation, types de base et opérations.
+  """
+}
+---
+>>>>>>> lessons-only:fr/lessons/basics/basics.md
 
 ## Installation
 

@@ -1,12 +1,11 @@
----
-author: Sophie DeBenedetto
-author_link: https://github.com/sophiedebenedetto
-categories: general
-date: 2019-06-04
-layout: post
-title:  Using Channels with LiveView for Better UX
-excerpt: >
-  By pairing a custom Phoenix Channel with our LiveView, with the help of a Registry, we can respond to LiveView events with custom JavaScript on the client-side to provide better UX.
+%{
+  author: "Sophie DeBenedetto",
+  author_link: "https://github.com/sophiedebenedetto",
+  tags: ["general", "liveview", "channels"],
+  date:  ~D[2019-06-04],
+  title: "Using Channels with LiveView for Better UX",
+  excerpt: "By pairing a custom Phoenix Channel with our LiveView, with the help of a Registry, we can respond to LiveView events with custom JavaScript on the client-side to provide better UX."
+}
 ---
 
 LiveView has given us the ability to implement flexible and responsive UX almost entirely with server-side code. But what happens when our need for a responsive UI surpasses what LiveView seemingly offers? When the demands of a particular feature have us reaching for JavaScript? It is possible to incorporate custom JS into the LiveView life cycle with the help of a custom LiveView channel and a Registry. Keep reading to see how we did it!
@@ -68,7 +67,7 @@ Later...
 
 There is a lot of code to get through, so we've organized our approach into the following parts:
 
-I. [Establishing the Socket and Channel](#-establishing-the-socket-and-channel)  
+I. [Establishing the Socket and Channel](#-establishing-the-socket-and-channel)
 
 II. [Handling Events in the LiveView](#handling-events-in-the-liveview)
 

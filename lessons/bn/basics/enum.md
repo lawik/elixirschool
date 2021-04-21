@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/bn/basics/enum.md
   title: "ইনাম"
 }
 ---
@@ -7,6 +8,14 @@
 কালেকশন এ ইনামুরেট এর সুবিধা নিবার  জন্য কিছু এলগোরিদম ।
 
 {% include toc.html %}
+=======
+  title: "ইনাম",
+  excerpt: """
+  কালেকশন এ ইনামুরেট এর সুবিধা নিবার  জন্য কিছু এলগোরিদম ।
+  """
+}
+---
+>>>>>>> lessons-only:bn/lessons/basics/enum.md
 
 ## ইনাম `Enum`
 

@@ -1,5 +1,6 @@
 %{
   version: "1.3.1",
+<<<<<<< HEAD:lessons/en/basics/collections.md
   title: "Collections"
 }
 ---
@@ -7,6 +8,14 @@
 Lists, tuples, keyword lists, and maps.
 
 {% include toc.html %}
+=======
+  title: "Collections",
+  excerpt: """
+  Lists, tuples, keyword lists, and maps.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/collections.md
 
 ## Lists
 

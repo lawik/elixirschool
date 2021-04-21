@@ -1,10 +1,11 @@
----
-author: Sean Callan
-categories: general
-tags: ['plug', 'software design']
-date: 2019-01-25
-layout: post
-title: Building web apps with Plug.Router
+%{
+  author: "Sean Callan",
+  author_link: "https://github.com/doomspork",
+  tags: ["plug", "software design"],
+  date:  ~D[2019-01-25],
+  title: "Building web apps with Plug.Router",
+  excerpt: "Building simple APIs with Plug.Router"
+}
 ---
 
 When it comes to building a web application with Elixir many people will immediately reach for Phoenix.

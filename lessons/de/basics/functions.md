@@ -1,5 +1,6 @@
 %{
   version: "0.9.1",
+<<<<<<< HEAD:lessons/de/basics/functions.md
   title: "Funktionen"
 }
 ---
@@ -7,6 +8,14 @@
 In Elixir und vielen anderen funktionalen Sprachen sind Funktionen "Bürger erster Klasse". Wir werden mehr über die Typen von Funktionen in Elixir lernen, was sie unterscheidet und wie man sie benutzt.
 
 {% include toc.html %}
+=======
+  title: "Funktionen",
+  excerpt: """
+  In Elixir und vielen anderen funktionalen Sprachen sind Funktionen "Bürger erster Klasse". Wir werden mehr über die Typen von Funktionen in Elixir lernen, was sie unterscheidet und wie man sie benutzt.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/functions.md
 
 ## Anonyme Funktionen
 
@@ -45,10 +54,9 @@ iex> handle_result = fn
 ...> end
 
 iex> some_result = 1
-1
 iex> handle_result.({:ok, some_result})
 Handling result...
-:ok
+
 iex> handle_result.({:error})
 An error has occurred!
 ```

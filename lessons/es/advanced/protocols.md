@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/es/advanced/protocols.md
   title: "Protocolos"
 }
 ---
@@ -7,6 +8,14 @@
 En esta lección daremos un vistazo a los Protocolos, qué son y como los podemos utilizar en Elixir.
 
 {% include toc.html %}
+=======
+  title: "Protocolos",
+  excerpt: """
+  En esta lección daremos un vistazo a los Protocolos, qué son y como los podemos utilizar en Elixir.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/advanced/protocols.md
 
 ## ¿Qué son los Protocolos?
 Entonces, ¿qué son?

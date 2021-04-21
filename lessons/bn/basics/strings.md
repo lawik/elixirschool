@@ -1,5 +1,6 @@
 %{
   version: "1.2.0",
+<<<<<<< HEAD:lessons/bn/basics/strings.md
   title: "স্ট্রিং "
 }
 ---
@@ -7,6 +8,14 @@
 স্ট্রিং, কার লিস্ট, গ্রাফীম ও কোড পয়েন্ট। 
 
 {% include toc.html %}
+=======
+  title: "স্ট্রিং ",
+  excerpt: """
+  স্ট্রিং, কার লিস্ট, গ্রাফীম ও কোড পয়েন্ট। 
+  """
+}
+---
+>>>>>>> lessons-only:bn/lessons/basics/strings.md
 
 ## স্ট্রিং 
 

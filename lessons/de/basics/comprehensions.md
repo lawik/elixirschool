@@ -1,5 +1,6 @@
 %{
   version: "0.9.0",
+<<<<<<< HEAD:lessons/de/basics/comprehensions.md
   title: "Comprehensions"
 }
 ---
@@ -7,6 +8,14 @@
 List comprehensions sind syntaktischer Zucker, um durch Enums zu iterieren in Elixir. In dieser Lektion werden wir einen Blick darauf werfen, wie wir comprehensions zur Iteration und Erzeugung nutzen können.
 
 {% include toc.html %}
+=======
+  title: "Comprehensions",
+  excerpt: """
+  List comprehensions sind syntaktischer Zucker, um durch Enums zu iterieren in Elixir. In dieser Lektion werden wir einen Blick darauf werfen, wie wir comprehensions zur Iteration und Erzeugung nutzen können.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/comprehensions.md
 
 ## Grundlagen
 

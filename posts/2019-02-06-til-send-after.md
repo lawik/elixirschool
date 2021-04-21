@@ -1,12 +1,11 @@
----
-author: Sean Callan
-author_link: https://github.com/doomspork
-categories: til
-date: 2019-02-07
-layout: post
-title:  TIL about `Process.send_after/4`
-excerpt: >
-  Want to schedule something to run later? Need a reoccurring task? Today we learn how!
+%{
+  author: "Sean Callan",
+  author_link: "https://github.com/doomspork",
+  tags: ["til"],
+  date:  ~D[2019-02-07],
+  title: "TIL about `Process.send_after/4`",
+  excerpt: "Want to schedule something to run later? Need a reoccurring task? Today we learn how!"
+}
 ---
 
 Executing code later or creating reoccurring tasks can be tricky but did you know we can accomplish this in Elixir with just a process?

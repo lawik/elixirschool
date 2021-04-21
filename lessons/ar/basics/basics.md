@@ -1,5 +1,6 @@
 %{
   version: "1.1.2",
+<<<<<<< HEAD:lessons/ar/basics/basics.md
   title: "الأساسيات"
 }
 ---
@@ -7,6 +8,14 @@
 مقدمة، أنواع البيانات والعمليات الأساسية.
 
 {% include toc.html %}
+=======
+  title: "الأساسيات",
+  excerpt: """
+  مقدمة، أنواع البيانات والعمليات الأساسية.
+  """
+}
+---
+>>>>>>> lessons-only:ar/lessons/basics/basics.md
 
 ## البدء
 

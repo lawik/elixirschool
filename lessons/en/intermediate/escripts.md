@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/en/intermediate/escripts.md
   title: "Executables"
 }
 ---
@@ -8,6 +9,15 @@ To build executables in Elixir we will be using escript.
 Escript produces an executable that can be run on any system with Erlang installed.
 
 {% include toc.html %}
+=======
+  title: "Executables",
+  excerpt: """
+  To build executables in Elixir we will be using escript.
+  Escript produces an executable that can be run on any system with Erlang installed.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/advanced/escripts.md
 
 ## Getting Started
 

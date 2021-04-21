@@ -1,5 +1,6 @@
 %{
   version: "1.0.2",
+<<<<<<< HEAD:lessons/en/intermediate/erlang.md
   title: "Erlang Interoperability"
 }
 ---
@@ -9,6 +10,16 @@ Interoperability allows us to leverage those libraries and the Erlang standard l
 In this lesson we'll look at how to access functionality in the standard lib along with third-party Erlang packages.
 
 {% include toc.html %}
+=======
+  title: "Erlang Interoperability",
+  excerpt: """
+  One of the added benefits to building on top of the Erlang VM (BEAM) is the plethora of existing libraries available to us.
+  Interoperability allows us to leverage those libraries and the Erlang standard lib from our Elixir code.
+  In this lesson we'll look at how to access functionality in the standard lib along with third-party Erlang packages.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/advanced/erlang.md
 
 ## Standard Library
 

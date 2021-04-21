@@ -3,8 +3,11 @@
   title: "Querying"
 }
 ---
+<<<<<<< HEAD:lessons/es/ecto/querying_basics.md
 
 {% include toc.html %}
+=======
+>>>>>>> lessons-only:es/lessons/ecto/querying.md
 
 En esta lección construiremos una la aplicación `Friends` y el catálogo de películas que configuramos en nuestra [lección anterior](./associations)
 

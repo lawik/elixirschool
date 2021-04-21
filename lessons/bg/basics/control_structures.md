@@ -1,5 +1,6 @@
 %{
   version: "0.9.1",
+<<<<<<< HEAD:lessons/bg/basics/control_structures.md
   title: "Контролни структури"
 }
 ---
@@ -7,6 +8,14 @@
 В този урок ще разгледаме какви контролни структури са достъпни за нас в Elixir.
 
 {% include toc.html %}
+=======
+  title: "Контролни структури",
+  excerpt: """
+  В този урок ще разгледаме какви контролни структури са достъпни за нас в Elixir.
+  """
+}
+---
+>>>>>>> lessons-only:bg/lessons/basics/control-structures.md
 
 ## `if` и `unless`
 

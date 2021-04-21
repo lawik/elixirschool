@@ -1,5 +1,6 @@
 %{
   version: "1.2.0",
+<<<<<<< HEAD:lessons/en/intermediate/mix_tasks.md
   title: "Custom Mix Tasks"
 }
 ---
@@ -7,6 +8,14 @@
 Creating custom Mix tasks for your Elixir projects.
 
 {% include toc.html %}
+=======
+  title: "Custom Mix Tasks",
+  excerpt: """
+  Creating custom Mix tasks for your Elixir projects.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/mix-tasks.md
 
 ## Introduction
 

@@ -1,5 +1,6 @@
 %{
   version: "1.4.1",
+<<<<<<< HEAD:lessons/en/basics/modules.md
   title: "Modules"
 }
 ---
@@ -8,6 +9,15 @@ We know from experience it's unruly to have all of our functions in the same fil
 In this lesson we're going to cover how to group functions and define a specialized map known as a struct in order to organize our code more efficiently.
 
 {% include toc.html %}
+=======
+  title: "Modules",
+  excerpt: """
+  We know from experience it's unruly to have all of our functions in the same file and scope.
+  In this lesson we're going to cover how to group functions and define a specialized map known as a struct in order to organize our code more efficiently.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/modules.md
 
 ## Modules
 

@@ -8,7 +8,10 @@
 ---
 
 ## Installing Elixir
+<<<<<<< HEAD:lessons/en/basics/basics.md
 >>>>>>> b8675889... Remove code snippets from headers
+=======
+>>>>>>> lessons-only:en/lessons/basics/basics.md
 
 Installation instructions for each OS can be found on elixir-lang.org in the [Installing Elixir](http://elixir-lang.org/install.html) guide.
 

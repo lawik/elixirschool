@@ -1,5 +1,6 @@
 %{
   version: "0.9.1",
+<<<<<<< HEAD:lessons/de/basics/strings.md
   title: "Strings"
 }
 ---
@@ -7,6 +8,14 @@
 Strings, Characterlisten, Graphemes und Codepoints.
 
 {% include toc.html %}
+=======
+  title: "Strings",
+  excerpt: """
+  Strings, Characterlisten, Graphemes und Codepoints.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/strings.md
 
 ## Strings
 

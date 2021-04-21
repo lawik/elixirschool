@@ -1,10 +1,11 @@
----
-author: Bobby Grayson
-date: 2019-02-21
-layout: post
-title:  Elixir Supervisor Strategies
-excerpt: >
-  Learn the ins and outs of Elixir's 3 supervisor strategies
+%{
+  author: "Bobby Grayson",
+  author_link: "https://github.com/notactuallypagemcconnell",
+  date:  ~D[2019-02-21],
+  tags: ["supervisors"],
+  title:  "Elixir Supervisor Strategies",
+  excerpt: "Learn the ins and outs of Elixir's 3 supervisor strategies"
+}
 ---
 
 One of the things that makes OTP and Elixir unique is the model of supervisor behaviour that applications can take with different processes they start.
@@ -38,7 +39,7 @@ defmodule Counter.One do
     IO.inspect("starting", label: "Counter.One")
     success = GenServer.start_link(__MODULE__, 0)
     IO.inspect("started", label: "Counter.One")
-    success 
+    success
   end
 
   @impl true
@@ -133,7 +134,7 @@ defmodule Counter.Two do
     IO.inspect("starting", label: "Counter.Two")
     success = GenServer.start_link(__MODULE__, 0)
     IO.inspect("started", label: "Counter.Two")
-    success 
+    success
   end
 
   @impl true
@@ -186,7 +187,7 @@ defmodule Counter.Three do
     IO.inspect("starting", label: "Counter.Three")
     success = GenServer.start_link(__MODULE__, 0)
     IO.inspect("started", label: "Counter.Three")
-    success 
+    success
   end
 
   @impl true

@@ -1,5 +1,6 @@
 %{
   version: "0.9.0",
+<<<<<<< HEAD:lessons/de/basics/collections.md
   title: "Collections"
 }
 ---
@@ -7,6 +8,14 @@
 Listen, Tupel, Keywords, Maps und funktionale Kombinatoren.
 
 {% include toc.html %}
+=======
+  title: "Collections",
+  excerpt: """
+  Listen, Tupel, Keywords, Maps und funktionale Kombinatoren.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/collections.md
 
 ## Listen
 

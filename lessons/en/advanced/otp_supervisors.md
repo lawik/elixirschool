@@ -1,5 +1,6 @@
 %{
   version: "1.1.1",
+<<<<<<< HEAD:lessons/en/advanced/otp_supervisors.md
   title: "OTP Supervisors"
 }
 ---
@@ -8,6 +9,15 @@ Supervisors are specialized processes with one purpose: monitoring other process
 These supervisors enable us to create fault-tolerant applications by automatically restarting child processes when they fail.
 
 {% include toc.html %}
+=======
+  title: "OTP Supervisors",
+  excerpt: """
+  Supervisors are specialized processes with one purpose: monitoring other processes.
+  These supervisors enable us to create fault-tolerant applications by automatically restarting child processes when they fail.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/advanced/otp-supervisors.md
 
 ## Configuration
 

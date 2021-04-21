@@ -1,4 +1,5 @@
 %{
+<<<<<<< HEAD:lessons/en/ecto/associations.md
   version: "1.2.2",
   title: "Associations"
 }
@@ -7,6 +8,15 @@
 In this section we'll learn how to use Ecto to define and work with associations between our schemas.
 
 {% include toc.html %}
+=======
+  version: "1.2.1",
+  title: "Associations",
+  excerpt: """
+  In this section we'll learn how to use Ecto to define and work with associations between our schemas.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/ecto/associations.md
 
 ## Set Up
 

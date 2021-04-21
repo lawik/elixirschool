@@ -1,5 +1,6 @@
 %{
   version: "0.9.0",
+<<<<<<< HEAD:lessons/bg/basics/enum.md
   title: "Enum"
 }
 ---
@@ -7,6 +8,14 @@
 Набор от алгоритми за изброяване върху колекции.
 
 {% include toc.html %}
+=======
+  title: "Enum",
+  excerpt: """
+  Набор от алгоритми за изброяване върху колекции.
+  """
+}
+---
+>>>>>>> lessons-only:bg/lessons/basics/enum.md
 
 ## Enum
 

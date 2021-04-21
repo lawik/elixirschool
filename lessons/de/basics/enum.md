@@ -1,5 +1,6 @@
 %{
   version: "0.9.0",
+<<<<<<< HEAD:lessons/de/basics/enum.md
   title: "Enums"
 }
 ---
@@ -7,6 +8,14 @@
 Ein Satz Algorithmen, um über collections zu gehen.
 
 {% include toc.html %}
+=======
+  title: "Enums",
+  excerpt: """
+  Ein Satz Algorithmen, um über collections zu gehen.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/enum.md
 
 ## Enum
 

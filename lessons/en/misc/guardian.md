@@ -1,5 +1,6 @@
 %{
   version: "1.0.3",
+<<<<<<< HEAD:lessons/en/misc/guardian.md
   title: "Guardian (Basics)"
 }
 ---
@@ -7,6 +8,14 @@
 [Guardian](https://github.com/ueberauth/guardian) is a widely used authentication library based on [JWT](https://jwt.io/) (JSON Web Tokens).
 
 {% include toc.html %}
+=======
+  title: "Guardian (Basics)",
+  excerpt: """
+  [Guardian](https://github.com/ueberauth/guardian) is a widely used authentication library based on [JWT](https://jwt.io/) (JSON Web Tokens).
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/libraries/guardian.md
 
 ## JWTs
 
@@ -85,7 +94,7 @@ end
 
 def deps do
   [
-    {:guardian, "~> x.x"},
+    {guardian: "~> x.x"},
     ...
   ]
 end

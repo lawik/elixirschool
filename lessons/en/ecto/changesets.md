@@ -1,5 +1,6 @@
 %{
   version: "1.2.2",
+<<<<<<< HEAD:lessons/en/ecto/changesets.md
   title: "Changesets"
 }
 ---
@@ -12,6 +13,19 @@ Ecto provides a complete solution for working with data changes in the form of t
 In this lesson we're going to explore this functionality and learn how to verify data's integrity, before we persist it to the database.
 
 {% include toc.html %}
+=======
+  title: "Changesets",
+  excerpt: """
+  In order to insert, update or delete data from the database, `Ecto.Repo.insert/2`, `update/2` and `delete/2` require a changeset as their first parameter. But what are changesets?
+
+  A familiar task for almost every developer is checking input data for potential errors — we want to make sure that data is in the right state, before we attempt to use it for our purposes.
+
+  Ecto provides a complete solution for working with data changes in the form of the `Changeset` module and data structure.
+  In this lesson we're going to explore this functionality and learn how to verify data's integrity, before we persist it to the database.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/ecto/changesets.md
 
 ## Creating your first changeset
 

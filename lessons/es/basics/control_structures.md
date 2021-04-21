@@ -1,5 +1,6 @@
 %{
   version: "1.1.1",
+<<<<<<< HEAD:lessons/es/basics/control_structures.md
   title: "Estructuras de control"
 }
 ---
@@ -7,6 +8,14 @@
 En esta lección veremos las estructuras de control disponibles en Elixir.
 
 {% include toc.html %}
+=======
+  title: "Estructuras de control",
+  excerpt: """
+  En esta lección veremos las estructuras de control disponibles en Elixir.
+  """
+}
+---
+>>>>>>> lessons-only:es/lessons/basics/control-structures.md
 
 ## `if` y `unless`
 

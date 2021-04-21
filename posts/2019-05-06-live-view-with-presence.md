@@ -1,12 +1,11 @@
----
-author: Sophie DeBenedetto
-author_link: https://github.com/sophiedebenedetto
-categories: general
-date: 2019-05-21
-layout: post
-title:  Tracking Users in a Chat App with LiveView, PubSub Presence
-excerpt: >
-  Use Phoenix Presence in your LiveView to track user state with just a few lines of code.
+%{
+  author: "Sophie DeBenedetto",
+  author_link: "https://github.com/sophiedebenedetto",
+  tags: ["general"],
+  date:  ~D[2019-05-21],
+  title: "Tracking Users in a Chat App with LiveView, PubSub Presence",
+  excerpt: "Use Phoenix Presence in your LiveView to track user state with just a few lines of code."
+}
 ---
 
 After playing with LiveView and leveraging Phoenix PubSub to broadcast messages to all of a live view's clients, I wanted to try incorporating Phoenix Presence to track the state of these clients. So this past weekend I built a chat app using Phoenix LiveView, PubSub and Presence. The LiveView clocks in at 90 lines of code, and I was able to get the Presence-backed features up and running in no time! Keep reading to see how it works.
@@ -297,7 +296,7 @@ This function has two responsibilities:
 
 ```elixir
 def handle_info(%{event: "presence_diff", payload: _payload}, socket = %{assigns: %{chat: chat}}) do
-  users =   
+  users =
     Presence.list(topic(chat.id))
     |> Enum.map(fn {_user_id, data} ->
       data[:metas]
@@ -401,7 +400,7 @@ Let's update our `mount/2` function to do exactly that:
 
 def mount(%{chat: chat, current_user: current_user}, socket) do
   ...
-  users =   
+  users =
     Presence.list(topic(chat.id))
     |> Enum.map(fn {_user_id, data} ->
       data[:metas]
@@ -432,7 +431,7 @@ The running LiveView processes that receive this `"presence_diff"` event will ne
 # lib/phat_web/live/chat_live_view.ex
 
 def handle_info(%{event: "presence_diff", payload: _payload}, socket = %{assigns: %{chat: chat}}) do
-  users =   
+  users =
     Presence.list(topic(chat.id))
     |> Enum.map(fn {_user_id, data} ->
       data[:metas]

@@ -1,5 +1,6 @@
 %{
   version: "1.0.1",
+<<<<<<< HEAD:lessons/en/basics/pipe_operator.md
   title: "Pipe Operator"
 }
 ---
@@ -7,6 +8,14 @@
 The pipe operator `|>` passes the result of an expression as the first parameter of another expression.
 
 {% include toc.html %}
+=======
+  title: "Pipe Operator",
+  excerpt: """
+  The pipe operator `|>` passes the result of an expression as the first parameter of another expression.
+  """
+}
+---
+>>>>>>> lessons-only:en/lessons/basics/pipe-operator.md
 
 ## Introduction
 

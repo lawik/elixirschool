@@ -1,5 +1,6 @@
 %{
   version: "0.9.2",
+<<<<<<< HEAD:lessons/de/basics/modules.md
   title: "Module"
 }
 ---
@@ -7,6 +8,14 @@
 Wie wir aus Erfahrung wissen ist es unschön alle unsere Funktionen in der gleichen Datei und im gleichen scope zu haben. In dieser Lektion werden wir uns ansehen, wie man Funktionen aufteilt und definieren eine spezielle map, genauer ein struct, um unseren Code effektiver zu strukturieren.
 
 {% include toc.html %}
+=======
+  title: "Module",
+  excerpt: """
+  Wie wir aus Erfahrung wissen ist es unschön alle unsere Funktionen in der gleichen Datei und im gleichen scope zu haben. In dieser Lektion werden wir uns ansehen, wie man Funktionen aufteilt und definieren eine spezielle map, genauer ein struct, um unseren Code effektiver zu strukturieren.
+  """
+}
+---
+>>>>>>> lessons-only:de/lessons/basics/modules.md
 
 ## Module
 

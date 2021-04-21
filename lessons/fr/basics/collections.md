@@ -1,5 +1,6 @@
 %{
   version: "1.3.1",
+<<<<<<< HEAD:lessons/fr/basics/collections.md
   title: "Collections"
 }
 ---
@@ -7,6 +8,14 @@
 Les listes, tuples, listes à mots clé, et tableaux associatifs.
 
 {% include toc.html %}
+=======
+  title: "Collections",
+  excerpt: """
+  Les listes, tuples, listes à mots clé, et tableaux associatifs.
+  """
+}
+---
+>>>>>>> lessons-only:fr/lessons/basics/collections.md
 
 ## Listes
 

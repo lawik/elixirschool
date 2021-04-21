@@ -1,13 +1,13 @@
----
-author: Sophie DeBenedetto
-author_link: https://github.com/sophiedebenedetto
-categories: general
-tags: ['live view']
-date: 2019-10-20
-layout: post
-title: Building a Table Sort UI with Live View's `live_link`
-excerpt: >
+%{
+  author: "Sophie DeBenedetto",
+  author_link: "https://github.com/sophiedebenedetto",
+  tags: ["liveview"],
+  date:  ~D[2019-10-20],
+  title: "Building a Table Sort UI with Live View's `live_link`",
+  excerpt: """
   We'll use LiveView's `live_link/2` together with the `handle_params/3` callback to allow users to sort a table in real-time.
+  """
+}
 ---
 
 LiveView makes it easy to solve for some of the most common UI challenges with little to no front-end code. It allows us to save JavaScript for the hard stuff––for complex and sophisticated UI changes. In building out a recent admin-facing view that included a table of student cohorts at the Flatiron School, I found myself reaching for LiveView. In just a few lines of backend code, my sortable table was up and running. Keep reading to see how you can leverage LiveView's `live_link/2` and `handle_params/3` to build out such a feature.
@@ -63,7 +63,7 @@ Let's take a look at how we can implement a `handle_params/3` function now.
 
 The `handle_params/3` callback is invoked under two circumstances.
 * After `mount/2` is called (i.e. when the live view first renders)
-* When a live navigation event, like a live link click, occurs. This second circumstance only triggers this callback when, as described above, the live view we are linking to is the same live view we are currently on _and_ the LiveView is defined in the router.  
+* When a live navigation event, like a live link click, occurs. This second circumstance only triggers this callback when, as described above, the live view we are linking to is the same live view we are currently on _and_ the LiveView is defined in the router.
 
 `handle_params/3` receives three arguments:
 * The query parameters

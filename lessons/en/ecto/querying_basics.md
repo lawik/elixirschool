@@ -3,8 +3,11 @@
   title: "Querying"
 }
 ---
+<<<<<<< HEAD:lessons/en/ecto/querying_basics.md
 
 {% include toc.html %}
+=======
+>>>>>>> lessons-only:en/lessons/ecto/querying.md
 
 In this lesson, we'll continue building off the `Friends` app and the movie-cataloguing domain we set up in the [previous lesson](./associations).
 

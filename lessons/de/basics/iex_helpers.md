@@ -3,8 +3,11 @@
   title: "IEx Hilfsfunktionen"
 }
 ---
+<<<<<<< HEAD:lessons/de/basics/iex_helpers.md
 
 {% include toc.html %}
+=======
+>>>>>>> lessons-only:de/lessons/basics/iex-helpers.md
 
 ## Überblick
 
