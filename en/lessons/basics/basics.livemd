@@ -1,0 +1,257 @@
+# Elixir School - Basics
+
+## Basic Data Types
+
+### Integers
+
+```elixir
+255
+```
+
+Support for binary, octal, and hexadecimal numbers comes built in:
+
+```elixir
+0x1F
+```
+
+```elixir
+0b0110
+```
+
+```elixir
+0o644
+```
+
+```elixir
+0x1F
+```
+
+### Floats
+
+In Elixir, floating point numbers require a decimal after at least one digit; they have 64-bit double precision and support `e` for exponent values:
+
+```elixir
+3.14
+```
+
+```elixir
+# Will cause an error:
+.14
+```
+
+### Booleans
+
+Elixir supports `true` and `false` as booleans; everything is truthy except for `false` and `nil`:
+
+```elixir
+true
+```
+
+```elixir
+false
+```
+
+### Atoms
+
+An atom is a constant whose name is its value.
+If you're familiar with Ruby, these are synonymous with Symbols:
+
+```elixir
+:foo == :bar
+```
+
+The booleans `true` and `false` are also the atoms `:true` and `:false`, respectively.
+
+```elixir
+is_atom(true)
+```
+
+```elixir
+is_boolean(true)
+```
+
+```elixir
+true == true
+```
+
+Names of modules in Elixir are also atoms. `MyApp.MyModule` is a valid atom, even if no such module has been declared yet.
+
+```elixir
+is_atom(MyApp.MyModule)
+```
+
+Atoms are also used to reference modules from Erlang libraries, including built in ones.
+
+```elixir
+:crypto.strong_rand_bytes(3)
+```
+
+### Strings
+
+Strings in Elixir are UTF-8 encoded and are wrapped in double quotes:
+
+```elixir
+"Hello"
+```
+
+```elixir
+"dziękuję"
+```
+
+Strings support line breaks and escape sequences:
+
+```elixir
+"foo
+bar"
+```
+
+```elixir
+"foo\nbar"
+```
+
+Elixir also includes more complex data types.
+We'll learn more about these when we learn about [collections](../collections/) and [functions](../functions/).
+
+## Basic Operations
+
+### Arithmetic
+
+Elixir supports the basic operators `+`, `-`, `*`, and `/` as you would expect.
+It's important to remember that `/` will always return a float:
+
+```elixir
+2 + 2
+```
+
+```elixir
+2 - 1
+```
+
+```elixir
+2 * 5
+```
+
+```elixir
+10 / 5
+```
+
+If you need integer division or the division remainder (i.e., modulo), Elixir comes with two helpful functions to achieve this:
+
+```elixir
+div(10, 5)
+```
+
+```elixir
+rem(10, 3)
+```
+
+### Boolean
+
+Elixir provides the `||`, `&&`, and `!` boolean operators.
+These support any types:
+
+```elixir
+20 || true
+```
+
+```elixir
+false || 42
+```
+
+```elixir
+42 && true
+```
+
+```elixir
+42 && nil
+```
+
+```elixir
+!42
+```
+
+```elixir
+!false
+```
+
+There are three additional operators whose first argument *must* be a boolean (`true` or `false`):
+
+```elixir
+true and 42
+```
+
+```elixir
+false or true
+```
+
+```elixir
+not false
+```
+
+```elixir
+42 and true
+```
+
+```elixir
+not 42
+```
+
+Note: Elixir's `and` and `or` actually map to `andalso` and `orelse` in Erlang.
+
+### Comparison
+
+Elixir comes with all the comparison operators we're used to: `==`, `!=`, `===`, `!==`, `<=`, `>=`, `<`, and `>`.
+
+```elixir
+1 > 2
+```
+
+```elixir
+1 != 2
+```
+
+```elixir
+2 == 2
+```
+
+```elixir
+2 <= 3
+```
+
+For strict comparison of integers and floats, use `===`:
+
+```elixir
+2 === 2.0
+```
+
+An important feature of Elixir is that any two types can be compared; this is particularly useful in sorting. We don't need to memorize the sort order, but it is important to be aware of it:
+
+number < atom < reference < function < port < pid < tuple < map < list < bitstring
+
+This can lead to some interesting, yet valid comparisons you may not find in other languages:
+
+```elixir
+:hello > 999
+```
+
+```elixir
+{:hello, :world} > [1, 2, 3]
+```
+
+### String Interpolation
+
+If you've used Ruby, string interpolation in Elixir will look familiar:
+
+```elixir
+name = "Sean"
+"Hello #{name}"
+```
+
+### String Concatenation
+
+String concatenation uses the `<>` operator:
+
+```elixir
+name = "Sean"
+"Hello " <> name
+```
